@@ -1,0 +1,23 @@
+.header-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.header-container > .flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.material-icons.gray600 {
+    color: #4F4F4F;
+}
+
+.header-container > .flex-container > .title-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #4F4F4F;
+    margin: 0 12px;
+}

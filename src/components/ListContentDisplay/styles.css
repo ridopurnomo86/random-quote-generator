@@ -1,0 +1,43 @@
+.list-content-display-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.list-content-display-container > .author-name-text {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    color:#333333;
+    margin-bottom: 100px;
+}
+
+.list-content-display-container > .list-quote-container > .quote-container {
+    max-width: 800px;
+    height: 100%;
+    position: relative;
+}
+
+.list-content-display-container > .list-quote-container > .quote-container > .flex-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.list-content-display-container > .list-quote-container > .quote-container > .flex-container > .border-quote {
+    display: inline-block;
+    width: 8px;
+    background-color: #F7DF94;
+    color: #F7DF94;
+    margin-right: 100px;
+}
+
+.list-content-display-container > .list-quote-container > .quote-container > .flex-container > .quote-text {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    color: #000000;
+}
