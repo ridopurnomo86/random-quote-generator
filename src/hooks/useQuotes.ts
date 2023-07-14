@@ -9,7 +9,9 @@ const randomIndex = (max: number, min: number): number => {
 };
 
 const useQuotes = () => {
-  const [randomQuote, setRandomQuote] = useState<QuotesApiType>({});
+  const [randomQuote, setRandomQuote] = useState<QuotesApiType>(
+    {} as QuotesApiType
+  );
   const [quotesAuthor, setQuotesAuthor] = useState<QuotesApiType[]>([]);
   const [quotes, setQuotes] = useState<QuotesApiType[]>([]);
   const [isLoading, setIsLoading] = useState(true);
